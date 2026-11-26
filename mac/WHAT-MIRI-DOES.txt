@@ -1,0 +1,49 @@
+What Miri Launcher does on a Mac (and why it's safe)
+====================================================
+Made by @9lo.l on Discord.
+Miri Launcher Beta Mac is a Roblox launcher for macOS 12 or newer. It lets you keep several
+Roblox accounts, start Roblox with one click, and change how Roblox looks on your own Mac.
+
+What it does
+------------
+- Accounts: you add an account with Roblox's own sign-in code. Miri keeps the sign-in in your
+  Mac's Keychain, so you can switch accounts and press PLAY without signing in again.
+- PLAY: asks Roblox for a one-time launch ticket and opens the Roblox app, the same way the
+  Roblox website does.
+- Studio: opens Roblox Studio if it's installed. Studio signs in by itself; Miri gives it
+  nothing. If Studio isn't installed, Miri offers to open Roblox's Creator Hub to get it.
+- Visuals: skies, fonts, cursors, emote wheels, textures and graphics settings. Miri copies
+  picture/font files into Roblox's own app (Roblox.app/Contents/Resources). Roblox's original
+  files are backed up and put back when you remove a visual.
+- FastFlags: Roblox's own graphics and performance settings, written to Roblox's
+  ClientAppSettings.json file (Roblox.app/Contents/MacOS/ClientSettings). Roblox decides
+  which ones it accepts.
+- Roblox updates: Roblox updates itself on a Mac, and an update replaces the whole app, which
+  removes your visuals. Miri notices and puts them back, and also applies them every time you
+  press PLAY.
+- Keeping itself up to date: when Miri opens, it checks github.com/mirilauncher/miri-releases
+  in the background. A newer Miri is downloaded and swapped in, and Miri asks if you want to
+  restart now. Your accounts and settings stay as they are. (This needs Miri in your
+  Applications folder, not opened straight from Downloads.)
+
+What it does NOT do
+-------------------
+- It is not a cheat or exploit. It never injects code into Roblox, never reads or changes
+  Roblox's memory while it runs, and gives no advantage in games. Every change is a file on
+  your Mac that only changes what YOU see.
+- It never sees your Roblox password and never sends your sign-in anywhere except Roblox.
+- It has no ads, no tracking, no telemetry and no servers of its own. See PRIVACY-POLICY.txt.
+- It doesn't need an administrator password and installs nothing else.
+
+What it changes on your Mac
+---------------------------
+- The app itself, wherever you put it (normally Applications).
+- Its data in ~/.config/MiriLauncher (see PRIVACY-POLICY.txt for every file).
+- One Keychain item per account, named "Miri Launcher".
+- Visual files and ClientAppSettings.json inside Roblox.app, as described above.
+
+The Windows straps (Bloxstrap, Froststrap, Fishstrap...) don't exist on Mac, so the Mac version
+has no "Roblox launcher" module. Everything else from the Windows version is here.
+
+Miri Launcher is a fan-made tool. It is not made by, endorsed by or affiliated with Roblox
+Corporation or Apple. Roblox is a trademark of Roblox Corporation.

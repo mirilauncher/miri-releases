@@ -1,0 +1,86 @@
+Miri Launcher for Mac - Privacy Policy
+======================================
+Made by @9lo.l on Discord.
+Applies to: Miri Launcher Beta Mac
+Last updated: November 26, 2026
+
+Short version
+-------------
+Miri keeps everything on your own Mac. It has no accounts of its own, no servers, no analytics,
+no ads and no tracking. The only places Miri talks to on the internet are Roblox and GitHub (for
+Miri's own updates), and only to do
+the things listed below.
+
+What Miri stores, and where
+---------------------------
+Your settings are saved in your own user folder, ~/.config/MiriLauncher:
+
+  accounts.json     The names and Roblox user IDs of the accounts you added.
+  settings.json     Your launcher options, FastFlags and visual choices.
+  RobloxMods/       The visual files you picked (fonts, skies, cursors, emote wheels...).
+  RobloxModsBackup/ Copies of Roblox's original files, so removing a mod puts them back.
+  avatars/          Your accounts' Roblox profile pictures, so the menu can show them.
+  background        A copy of your own background picture, if you chose one.
+  crash.log         Only written if Miri crashes: the error message, for fixing the bug.
+                    It contains no passwords or cookies and is never uploaded.
+
+Your Roblox sign-in (the .ROBLOSECURITY session cookie) for each account is kept in your Mac's
+login Keychain, as a "Miri Launcher" item. macOS only lets Miri itself read it. Miri never
+writes it to a file or a log, never shows it, and never sends it anywhere except Roblox.
+
+Miri never sees your Roblox password. You sign in with Roblox's own sign-in code: Miri shows
+a code, and you approve it on roblox.com (or in the Roblox app) on a device where you're
+already signed in.
+
+What Miri sends over the internet
+---------------------------------
+Only these, and only when the feature is used:
+
+  apis.roblox.com                    Gets a sign-in code and checks whether you approved it.
+  auth.roblox.com                    Finishes the sign-in, and gets a one-time launch ticket
+                                     when you press PLAY (the same way the Roblox website
+                                     starts the game).
+  users.roblox.com                   Checks which account a sign-in belongs to (name and ID).
+  thumbnails.roblox.com              Downloads your accounts' profile pictures (sends user IDs).
+  roblox.com/crossdevicelogin        Opened in your web browser if you press "Open roblox.com"
+                                     while adding an account, to enter the code.
+  roblox.com/download                Opened in your web browser if Roblox isn't installed.
+  create.roblox.com                  Opened in your web browser if you press Studio and Roblox
+                                     Studio isn't installed (so you can download it from Roblox).
+  api.github.com, github.com         Checks Miri's own download page (github.com/mirilauncher/
+                                     miri-releases) for a newer Miri when it opens, and downloads
+                                     it. Sends nothing about you or your accounts.
+
+Like any internet connection, these services can see your IP address. Their own privacy
+policies apply (Roblox: roblox.com/info/privacy, GitHub: docs.github.com/site-policy).
+
+Miri does not send anything to its developer (@9lo.l on Discord) or to anyone else. There is no
+telemetry, no usage statistics, no crash reporting and no automatic upload of any file.
+
+Sharing
+-------
+Miri does not sell, share or rent any data, because it never collects any.
+
+Children
+--------
+Miri collects no personal data from anyone, including children. Roblox's own rules and
+age requirements still apply to your Roblox account.
+
+Removing your data
+------------------
+- In Miri: remove an account in the Roblox tab to delete its saved sign-in from the Keychain.
+- Visual mods Miri copied into Roblox can be removed from Settings > Visuals ("Remove all").
+  A Roblox update or reinstall also removes them.
+- Then drag "Miri Launcher" from Applications to the Bin, and delete the folder
+  ~/.config/MiriLauncher (in Finder: Go > Go to Folder..., then type ~/.config).
+
+Questions
+---------
+Message the developer, @9lo.l on Discord.
+
+Changes
+-------
+If this policy changes, the new version comes with the new download and the date above changes.
+
+Miri Launcher is a fan-made tool. It is not made by, endorsed by or affiliated with Roblox
+Corporation or Apple.

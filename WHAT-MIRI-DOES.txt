@@ -1,0 +1,57 @@
+What Miri Launcher does (and why it's safe)
+===========================================
+Made by @9lo.l on Discord.
+Miri Launcher Beta is a Roblox launcher for Windows 10/11. It lets you keep several Roblox
+accounts, start Roblox with one click, and change how Roblox looks on your own PC.
+
+What it does
+------------
+- Accounts: you sign in on Roblox's real login page. Miri saves the sign-in encrypted on your
+  PC, so you can switch accounts and press PLAY without typing your password again.
+- PLAY: asks Roblox for a one-time launch ticket and opens the Roblox app, the same way the
+  Roblox website does.
+- Studio: opens Roblox Studio if it's installed. Studio signs in by itself; Miri gives it
+  nothing. If Studio isn't installed, Miri offers to open Roblox's Creator Hub to get it.
+- Visuals: skies, fonts, cursors, emote wheels, textures and graphics settings. Miri copies
+  picture/font files into Roblox's own folders on your PC (and into Bloxstrap, Froststrap,
+  Fishstrap and similar launchers' "Modifications" folder). This is the same kind of file
+  swap those launchers do. Roblox's original files are backed up and put back when you
+  remove a visual.
+- FastFlags: Roblox's own graphics and performance settings, written to Roblox's
+  ClientAppSettings.json file. Roblox decides which ones it accepts.
+- Keeping Roblox up to date: plain Roblox is updated from Roblox's own download servers,
+  in the background.
+- Keeping itself up to date: when Miri opens, it checks github.com/mirilauncher/miri-releases
+  in the background. A newer Miri is downloaded and swapped in, and Miri asks if you want to
+  restart now. Your accounts and settings stay as they are.
+
+What it does NOT do
+-------------------
+- It is not a cheat or exploit. It never injects code into Roblox, never reads or changes
+  Roblox's memory while it runs, and gives no advantage in games. Every change is a file on
+  your PC that only changes what YOU see.
+- It never sees your Roblox password and never sends your sign-in anywhere except Roblox.
+- It has no ads, no tracking, no telemetry and no servers of its own. See PRIVACY-POLICY.txt.
+- It doesn't need admin rights. Apart from Roblox itself, the only thing it may install is
+  Microsoft's WebView2 Runtime (only if your PC doesn't have it; it's needed for sign-in).
+
+What it changes on your PC
+--------------------------
+- Installs to %LocalAppData%\Programs\MiriLauncher, with Start menu and desktop shortcuts
+  and an entry in Settings > Apps (uninstall from there any time).
+- Saves its data in %AppData%\MiriLauncher (see PRIVACY-POLICY.txt for every file).
+- Writes visual files into Roblox's folders, as described above.
+- When it updates plain Roblox, it points Windows' "roblox-player" link at the new Roblox
+  version, which is what Roblox's own updater does too.
+
+"Windows protected your PC"
+---------------------------
+Windows shows this blue screen for any new program that isn't signed with a paid
+code-signing certificate and hasn't been downloaded by many people yet. It doesn't mean
+Windows found anything wrong with Miri. To run it: click "More info", then "Run anyway".
+
+Please only download Miri from the person or page you got it from originally. A copy from
+anywhere else could have been changed.
+
+Miri Launcher is a fan-made tool. It is not made by, endorsed by or affiliated with Roblox
+Corporation. Roblox is a trademark of Roblox Corporation.

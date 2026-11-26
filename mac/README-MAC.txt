@@ -4,7 +4,7 @@ Made by @9lo.l on Discord.
 
 Install
 -------
-1. Double-click "Miri Launcher Beta Mac.zip" if your Mac hasn't unzipped it already.
+1. Double-click the Mac download (Miri-Launcher-Beta-Mac.zip) if your Mac hasn't unzipped it already.
 2. Drag "Miri Launcher.app" into your Applications folder.
 3. Open it once the way described below. After that it opens like any other app.
 

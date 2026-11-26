@@ -5,13 +5,13 @@ It's not a cheat: it only changes files on your own computer, and only what *you
 
 Made by @9lo.l on Discord.
 
-## Download
+## Download: which one do I need?
 
-| | |
+| Your computer | Download |
 |---|---|
-| **Windows (installer)** | [Miri-Launcher-Beta-Setup.zip](https://github.com/mirilauncher/miri-releases/releases/latest/download/Miri-Launcher-Beta-Setup.zip) |
-| **Windows (no install)** | [Miri-Launcher-Beta-Windows.zip](https://github.com/mirilauncher/miri-releases/releases/latest/download/Miri-Launcher-Beta-Windows.zip) |
-| **Mac** | [Miri-Launcher-Beta-Mac.zip](https://github.com/mirilauncher/miri-releases/releases/latest/download/Miri-Launcher-Beta-Mac.zip) (read [mac/README-MAC.txt](mac/README-MAC.txt) first) |
+| **Windows** (most people) | [Miri-Launcher-Beta-Windows-Setup.zip](https://github.com/mirilauncher/miri-releases/releases/latest/download/Miri-Launcher-Beta-Windows-Setup.zip): unzip it and run the installer |
+| **Windows**, without installing | [Miri-Launcher-Beta-Windows.zip](https://github.com/mirilauncher/miri-releases/releases/latest/download/Miri-Launcher-Beta-Windows.zip): unzip it anywhere and open MiriLauncher.exe |
+| **Mac** | [Miri-Launcher-Beta-Mac.zip](https://github.com/mirilauncher/miri-releases/releases/latest/download/Miri-Launcher-Beta-Mac.zip): read [mac/README-MAC.txt](mac/README-MAC.txt) first, and keep Miri in Applications |
 
 These links always give the newest build.
 
